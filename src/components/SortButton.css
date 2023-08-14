@@ -1,0 +1,17 @@
+/* SortButton.css */
+
+.sort-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.sort-button.disabled {
+  background-color: #95a5a6;
+  cursor: not-allowed;
+}
