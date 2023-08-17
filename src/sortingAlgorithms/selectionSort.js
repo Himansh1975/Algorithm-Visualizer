@@ -12,9 +12,7 @@ const selectionSort = async (array, setArray) => {
       }
     }
     if (minIndex !== i) {
-      const temp = sortedArray[i];
-      sortedArray[i] = sortedArray[minIndex];
-      sortedArray[minIndex] = temp;
+      [sortedArray[i], sortedArray[minIndex]] = [sortedArray[minIndex], sortedArray[i]]; // Swap elements
       setArray([...sortedArray]);
       await sleep(100);
     }

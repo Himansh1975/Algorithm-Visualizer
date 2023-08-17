@@ -1,5 +1,5 @@
 import React from "react";
-import "./SortButton.css";
+import "../styles/SortButton.css";
 
 const SortButton = ({ onClick, disabled }) => {
   return (

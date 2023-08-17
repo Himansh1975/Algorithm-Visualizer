@@ -3,6 +3,8 @@
 .sorting-algorithm-selector {
   padding: 10px;
   font-size: 16px;
-  border: 1px solid #ccc;
+  border: 5px solid #ccc;
   border-radius: 5px;
+  position: absolute;
+  left: 20px;
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import "./GenerateArrayButton.css";
+import "../styles/GenerateArrayButton.css";
 
 const GenerateArrayButton = ({ onClick, disabled }) => {
   return (

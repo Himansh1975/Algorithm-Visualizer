@@ -1,10 +1,9 @@
 import React from "react";
-import "./SortingAlgorithmSelector.css";
+import "../styles/SortingAlgorithmSelector.css";
 
 const SortingAlgorithmSelector = ({ sortingAlgorithms, selectedAlgorithmIndex, onChange }) => {
   return (
     <select className="sorting-algorithm-selector" onChange={onChange}>
-      <option value={null}>Select Sorting Algorithm</option>
       {sortingAlgorithms.map((algorithm, index) => (
         <option key={index} value={index}>
           {algorithm.name}
